@@ -1,0 +1,23 @@
+.predict-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10%;
+}
+
+.predict-form-container .segment,
+.predict-form-container .table-container {  /* added this line */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* PredictForm.css */
+.segment-border {
+    border: 2px solid rgb(150,75,0) !important;
+}
